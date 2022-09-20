@@ -14,7 +14,7 @@ jobs:
         run: cmake.exe --build target --config Release
       - name: 
         run: | 
-          xcopy target\Windows_MSVC_AMD64\Release release\ /s /y
+          xcopy target\src\Release release\ /s /y
           xcopy src\slice_by_8 release\slice_by_8\ /s /y
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
