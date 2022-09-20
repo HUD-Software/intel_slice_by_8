@@ -10,5 +10,6 @@
         "editor.fontSize": 12,
         "terminal.integrated.fontSize": 12,
         "cmake.buildDirectory": "${workspaceFolder}/target",
+        "C_Cpp.autoAddFileAssociations": false,
     },
 }
