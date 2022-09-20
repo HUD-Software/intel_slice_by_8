@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Personnel\intel_slice_by_8\src\8x256_tables.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personnel\intel_slice_by_8\src\crc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Personnel\intel_slice_by_8\src\slice_by_8\crc.h">
+      <Filter>src\slice_by_8</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Personnel\intel_slice_by_8\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9DEF1287-C40D-3373-B956-F061EA8B1388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\slice_by_8">
+      <UniqueIdentifier>{B3BB4527-E703-3994-9599-CA9C047B2DAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

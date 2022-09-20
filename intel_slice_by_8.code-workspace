@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "Intel Slice-by-8"
+        }
+    ],
+    "settings": {
+        "editor.renderWhitespace": "boundary",
+        "editor.fontSize": 12,
+        "terminal.integrated.fontSize": 12,
+        "cmake.buildDirectory": "${workspaceFolder}/target",
+    },
+}
