@@ -7,7 +7,7 @@ set ( interface	slice_by_8/crc.h)
 source_group( TREE ${CMAKE_SOURCE_DIR} FILES ${interface} ${src})
 
 # Add intel_slice_by_8 to the project
-add_library(intel_slice_by_8 STATIC ${interface} ${src})
+add_library(slice_by_8 STATIC ${interface} ${src})
 
 # Include Interface directory to inclusion path
-target_include_directories(intel_slice_by_8 PUBLIC . )
+target_include_directories(slice_by_8 PUBLIC . )
