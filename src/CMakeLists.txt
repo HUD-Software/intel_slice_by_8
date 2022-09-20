@@ -13,4 +13,4 @@ add_library(intel_slice_by_8 STATIC ${interface} ${src})
 target_include_directories(intel_slice_by_8 PUBLIC . )
 
 # Set output directory
-set_target_properties(intel_slice_by_8 PROPERTIES ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/target/${CMAKE_SYSTEM_NAME}_${CMAKE_CXX_COMPILER_ID}_${CMAKE_SYSTEM_PROCESSOR}/${CMAKE_BUILD_TYPE})
+set_target_properties(intel_slice_by_8 PROPERTIES ARCHIVE_OUTPUT_DIRECTORY target/${CMAKE_SYSTEM_NAME}_${CMAKE_CXX_COMPILER_ID}_${CMAKE_SYSTEM_PROCESSOR}/${CMAKE_BUILD_TYPE})

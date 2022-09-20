@@ -1,3 +1,0 @@
-C:/Personnel/intel_slice_by_8/target/CMakeFiles/ALL_BUILD.dir
-C:/Personnel/intel_slice_by_8/target/CMakeFiles/ZERO_CHECK.dir
-C:/Personnel/intel_slice_by_8/target/src/CMakeFiles/intel_slice_by_8.dir
