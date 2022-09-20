@@ -11,7 +11,7 @@ jobs:
       - name: Generate visual Studio 2022 solution
         run: cmake.exe --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -Btarget -G "Visual Studio 17 2022" -T host=x64 -A x64
       - name: Build Google Test
-        run: cmake.exe --build target --config Release --target gtest
+        run: cmake.exe --build target --config Release
       - name: 
         run: | 
           xcopy target\Windows_MSVC_AMD64\Release release\ /s /y
